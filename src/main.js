@@ -3,8 +3,15 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import wysiwyg from 'vue-wysiwyg'
+
+
+
 
 Vue.config.productionTip = false
+Vue.use(wysiwyg, {});
+
+import 'vue-wysiwyg/dist/vueWysiwyg.css'
 
 require('./assets/sass/app.scss');
 
