@@ -1,0 +1,30 @@
+.site_header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background: $purple;
+}
+
+.site_logo {
+  color: #fff;
+  font-size: 1.4rem;
+  margin-left: 2em;
+}
+
+.header_navigation {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+
+  margin-right: 3em;
+
+  a {
+    color: #fff;
+    font-size: 1.4rem;
+  }
+}
+
