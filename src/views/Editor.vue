@@ -1,9 +1,22 @@
 <template>
   <main class="content">
-    <thumbnail-editor></thumbnail-editor>
-    <author-editor></author-editor>
-    <content-editor></content-editor>
-    <meta-editor></meta-editor>
+    <div class="row">
+      <div class="column md3">
+        <thumbnail-editor></thumbnail-editor>
+       <author-editor></author-editor>
+      </div>
+      <div class="column md6">
+
+        <content-editor></content-editor>
+      </div>
+      <div class="column md3">
+
+        <meta-editor></meta-editor>
+      </div>
+    </div>
+
+
+
   </main>
 </template>
 <script>
