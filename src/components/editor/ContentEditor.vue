@@ -1,8 +1,10 @@
 <template>
 
+
+  <div class="card">
     <wysiwyg content="myHTML"></wysiwyg>
 
-
+  </div>
 
 </template>
 
