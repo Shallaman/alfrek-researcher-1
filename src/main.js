@@ -11,9 +11,9 @@ import wysiwyg from 'vue-wysiwyg'
 Vue.config.productionTip = false
 Vue.use(wysiwyg, {});
 
-import 'vue-wysiwyg/dist/vueWysiwyg.css'
+require('./assets/sass/app.scss')
 
-require('./assets/sass/app.scss');
+import 'vue-wysiwyg/dist/vueWysiwyg.css'
 
 /* eslint-disable no-new */
 new Vue({

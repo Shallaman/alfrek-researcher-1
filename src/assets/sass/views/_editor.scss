@@ -1,14 +1,36 @@
-.editr {
-  width: 100%;
-  border: none;
-  background-color: white;
-  font-family: "Source Sans Pro";
+.solution-header {
+  background: url("../img/default_header_dark.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
 
-  .editr--toolbar{
-    width: 100%;
-    border: none;
-    background-color: #ffffff;
+.solution-editor {
+  margin-top: -250px;
+}
+
+
+section.authors,
+section.editor,
+section.meta {
+  margin-top: 3em;
+}
+
+@media screen and (min-width: 1200px){
+
+  section.authors,
+  section.editor,
+  section.meta {
+    margin-top: 0;
   }
 
-
+  section.authors {
+    order: 0;
+  }
+  section.editor {
+    order: 1;
+  }
+  section.meta {
+    order: 2;
+  }
 }

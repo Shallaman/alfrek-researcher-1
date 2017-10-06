@@ -6,7 +6,9 @@
     <nav class="header_navigation">
       <ul>
         <li>
-          <router-link to="/editor">Editor</router-link>
+          <router-link to="/editor">New Solution</router-link>
+          <router-link to="/">Solutions</router-link>
+          <router-link to="/">Account</router-link>
         </li>
       </ul>
     </nav>

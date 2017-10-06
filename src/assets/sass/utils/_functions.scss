@@ -1,0 +1,12 @@
+@function color($pallete, $key: 'default') {
+  @return map_get($pallete, $key);
+}
+
+@function setting($map, $key) {
+  @return map-get($map, $key);
+}
+
+
+@function z-index($key) {
+  @return map-get($z-index, $key);
+}

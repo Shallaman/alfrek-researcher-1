@@ -1,18 +1,34 @@
-// Settings
-@import "settings/colors";
+// Normalize
+@import "settings/normalize";
+
+
+// Bootstrap Grid
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+@import "bootstrap/reboot";
+@import "bootstrap/grid";
+@import "bootstrap/bootstrap-grid";
 
 // Utils
+@import "utils/functions";
 
-@import "utils/layout";
-@import "utils/normalize";
+// Settings
+@import "settings/colors";
+@import "settings/typography";
+@import "settings/layout";
+
+// Global styles
+@import "global";
+
 // Components
 
 @import "components/header";
+@import "components/button";
 @import "components/authoreditor";
 @import "components/thumbnaileditor";
 @import "components/contenteditor";
 @import "components/metaeditor";
-
 
 // View
 @import "views/editor";

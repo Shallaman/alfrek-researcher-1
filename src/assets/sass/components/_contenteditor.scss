@@ -1,0 +1,47 @@
+.content-title {
+  padding-top: 2.5em;
+  width: 100%;
+}
+
+.editors {
+  h2 {
+    text-align: left;
+    font-size: 2.4rem;
+    padding: .5em 0;
+    text-transform: uppercase;
+    color: color($teal, 'lighter');
+  }
+}
+
+.editr {
+  @include font-sans;
+  width: 100%;
+  border: none;
+  background-color: white;
+  text-align: left;
+
+  .editr--toolbar{
+    width: 100%;
+    border: none;
+    background-color: #ffffff;
+  }
+
+  .editr--content {
+    min-height: 600px;
+  }
+
+}
+
+.dropzone-wrap {
+  h3 {
+    text-align: left;
+    padding: .5em 0;
+    text-transform: uppercase;
+    color: color($teal, 'lighter');
+  }
+
+  .vue-dropzone .dz-preview .dz-details {
+    background-color: color($orange, 'lighter');
+  }
+
+}
