@@ -3,8 +3,8 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import store from './store'
 import wysiwyg from 'vue-wysiwyg'
-
 
 
 
@@ -18,6 +18,7 @@ import 'vue-wysiwyg/dist/vueWysiwyg.css'
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
+  store,
   router,
   template: '<App/>',
   components: { App }

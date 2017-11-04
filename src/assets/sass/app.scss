@@ -29,6 +29,10 @@
 @import "components/thumbnaileditor";
 @import "components/contenteditor";
 @import "components/metaeditor";
+@import "components/alert";
+@import "components/multiselect";
 
 // View
 @import "views/editor";
+@import "views/login";
+@import "views/register";

@@ -1,0 +1,37 @@
+.login .row {
+  height: 100vh;
+  background-image: url("../img/default_header_dark.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.login__form {
+  background: #fff;
+  padding: 3em;
+  max-width: 500px;
+
+  h1, h2 {
+    text-align: center;
+  }
+  h1 {
+    @include font-gothic;
+    color: color($purple, 'default');
+    font-size: 4rem;
+  }
+  h2 {
+    @include font-sans;
+    margin-top: -.5em;
+    font-size: 1.2rem;
+  }
+
+  button {
+    display: block;
+    margin: 0 auto;
+  }
+
+  small {
+    display: block;
+    margin-top: 2em;
+  }
+
+}

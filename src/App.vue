@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <app-header></app-header>
+    <app-header v-if="loggedIn"></app-header>
     <router-view></router-view>
   </div>
 </template>
@@ -10,6 +10,11 @@
   export default {
     components: {
       AppHeader
+    },
+    computed: {
+        loggedIn() {
+            return this.$store.getters.authCheck;
+        }
     }
   }
 </script>
