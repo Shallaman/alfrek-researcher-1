@@ -7,7 +7,7 @@
       <ul>
         <li>
           <router-link to="/editor">New Solution</router-link>
-          <router-link to="/">Solutions</router-link>
+          <router-link to="/">Dashboard</router-link>
           <router-link to="/">Account</router-link>
           <a @click="logout">Log out</a>
         </li>

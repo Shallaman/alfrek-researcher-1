@@ -31,7 +31,7 @@
     data() {
       return {
         keywords: [],
-        roles: ['CEO', 'COO', 'CIO', 'CDO', 'VP', 'Student', 'Other', 'Your mom', 'Someone else'],
+        roles: ['CEO', 'COO', 'CIO', 'CDO', 'VP', 'Student', 'Other', 'Someone else'],
         selectedRoles: [],
 
         dropzoneOptions: {

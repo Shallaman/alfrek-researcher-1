@@ -7,7 +7,7 @@ import Login from '../views/Login';
 import Register from '../views/Register.vue';
 import Router from 'vue-router';
 import Dashboard from '../views/Dashboard';
-import Editor from '../views/Editor';
+import Editor from '../views/New';
 
 Vue.use(Router)
 

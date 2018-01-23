@@ -3,7 +3,7 @@
     <div class="container">
       <header class="content-title">
         <div class="input-group">
-          <input v-model="title" type="text" id="title" class="title">
+          <input v-model="title" type="text" id="title" class="title" @input="$emit('title', title)">
           <label for="title">Title</label>
           <small class="word_count" :class="overCharacterLimit(title, 55)">{{ title.length }} / 55</small>
         </div>
@@ -34,7 +34,7 @@
         <h2>Next add your Solution</h2>
         <v-button @click="isOnProblem = false" type="success">Next</v-button>
       </div>
-      <div v-else="" class="button-group left">
+      <div v-else class="button-group left">
         <v-button @click="isOnProblem = true" type="success">Back</v-button>
         <h2>Go back to the Problem</h2>
       </div>
